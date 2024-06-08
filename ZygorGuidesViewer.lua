@@ -3801,5 +3801,7 @@ end
 -- Перезагрузка перевода через команду /zgvr
 SLASH_ZGVR1 = "/zgvr"
 SlashCmdList["ZGVR"] = function()
-   ZGV:ReloadTranslation()
+	-- ZGV:Print("Перезагрузка перевода")
+	ZGV:ReloadTranslation()
+	-- ZGV:Print("перезагрузил")
 end 
