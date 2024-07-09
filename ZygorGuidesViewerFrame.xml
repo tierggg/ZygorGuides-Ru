@@ -632,6 +632,31 @@
 													<OnLoad> self:RegisterForClicks("LeftButtonUp","RightButtonUp") </OnLoad>
 												</Scripts>
 											</Button>
+											
+											<!-- reload translate button -->
+											<Button name="$parent_ReloadTranslationButton" parentKey="ReloadTranslationButton">
+												<Size x="25" y="25"/>
+													<NormalTexture    parentKey="ntx" file=""                ><TexCoords left="0.750" right="0.875" top="0.000" bottom="0.250"/></NormalTexture>
+													<PushedTexture    parentKey="ptx" file=""                ><TexCoords left="0.750" right="0.875" top="0.250" bottom="0.500"/></PushedTexture>
+													<HighlightTexture parentKey="htx" file="" alphaMode="ADD"><TexCoords left="0.750" right="0.875" top="0.500" bottom="0.750"/></HighlightTexture>
+												<Scripts>
+													<OnClick>
+													if button=="RightButton" then
+														ZGV:ReloadTranslation()
+													else
+														ZGV:ReloadTranslation()
+													end
+													</OnClick>
+													<OnEnter>
+													GameTooltip:SetOwner(self, "ANCHOR_TOP")
+													GameTooltip:SetText(ZygorGuidesViewer.L['Перезагрузка перевода']) 
+													GameTooltip:Show()
+													</OnEnter>
+													<OnLeave> GameTooltip:Hide() </OnLeave>
+													<OnLoad> self:RegisterForClicks("LeftButtonUp","RightButtonUp") </OnLoad>
+												</Scripts>
+											</Button>											
+											<!-- reload translate button -->
 
 											<Button name="$parent_CloseButton" inherits="UIPanelCloseButton" parentKey="CloseButton">
 												<Size x="20" y="20"/>

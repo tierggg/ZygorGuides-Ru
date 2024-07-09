@@ -278,7 +278,7 @@ ZygorGuidesViewer_L("Main", "ruRU", function() return {
 
 	["initialized"] = 'Инициализирован.',
 
-	["miniframe_notloaded"] = "No leveling guides are loaded.|n|nPlease go to http://zygorguides.com to purchase Zygor's 1-80 Leveling Guides, or load some third-party guides.|n|nIf you're sure you have installed some guides, ask their authors for installation troubleshooting.",
+	["miniframe_notloaded"] = "Гайды не загружены",
 	["miniframe_notselected"] = "Гайд не выбран.\nПожалуйста, нажмите выпадающую кнопку выше, чтобы выбрать гайд.",
 	["miniframe_loading"] = "Загрузка гайдов: %d%%",
 

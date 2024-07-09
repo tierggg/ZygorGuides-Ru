@@ -2113,6 +2113,7 @@ function me:AlignFrame()
 	ZygorGuidesViewerFrame_Border_LockButton:SetPoint("CENTER",ZygorGuidesViewerFrame_Border,UP_TOPLEFT,8,-13*UP)
 	ZygorGuidesViewerFrame_Border_MiniButton:SetPoint("CENTER",ZygorGuidesViewerFrame_Border,UP_TOPRIGHT,-40,-5*UP)
 	ZygorGuidesViewerFrame_Border_SettingsButton:SetPoint("CENTER",ZygorGuidesViewerFrame_Border,UP_TOPLEFT,40,-5*UP)
+	ZygorGuidesViewerFrame_Border_ReloadTranslationButton:SetPoint("CENTER",ZygorGuidesViewerFrame_Border,UP_TOPLEFT,70,-5*UP)
 	ZygorGuidesViewerFrame_Border_CloseButton:SetPoint("CENTER",ZygorGuidesViewerFrame_Border,UP_TOPRIGHT,5,-2*UP)
 	
 	--ntx:SetTexCoord(731/1024,850/1024,76/512,145/512)
@@ -2310,6 +2311,10 @@ function me:UpdateSkin()
 	ZygorGuidesViewerFrame_Border_SettingsButton.ntx:SetTexture(SKINDIR.."\\titlebuttons")
 	ZygorGuidesViewerFrame_Border_SettingsButton.ptx:SetTexture(SKINDIR.."\\titlebuttons")
 	ZygorGuidesViewerFrame_Border_SettingsButton.htx:SetTexture(SKINDIR.."\\titlebuttons")
+
+	ZygorGuidesViewerFrame_Border_ReloadTranslationButton.ntx:SetTexture(SKINDIR.."\\titlebuttons")
+	ZygorGuidesViewerFrame_Border_ReloadTranslationButton.ptx:SetTexture(SKINDIR.."\\titlebuttons")
+	ZygorGuidesViewerFrame_Border_ReloadTranslationButton.htx:SetTexture(SKINDIR.."\\titlebuttons")
 
 	ZygorGuidesViewerMapIcon.ntx:SetTexture(SKINDIR.."\\zglogo")
 	ZygorGuidesViewerMapIcon.ptx:SetTexture(SKINDIR.."\\zglogo")
