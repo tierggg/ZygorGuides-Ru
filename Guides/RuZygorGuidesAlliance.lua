@@ -23529,7 +23529,7 @@ step //305
 .' ГРАЦ!
 ]])
 
--- Перевёл TierGGG
+-- Перевёл TierGGG.
 
 --TRIAL ZygorGuidesViewer:RegisterGuide("Гайд для Альянса\\Альянс уровни 13-20",[[
 --TRIAL 	author support@zygorguides.com
